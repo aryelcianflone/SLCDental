@@ -1,0 +1,96 @@
+html, body {
+	height: 100%;
+	width: 100%;
+	background: #005AA3;
+	margin: 0;
+}
+
+.top-text {
+	height: 3%;
+	width: 100%;
+	background: #004E8E;
+	font-family: "helvetica";
+	font-size: 10px;
+	color: #84A6C3;
+	padding: .8% 10px;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: space-around;
+	border-bottom: 1px solid #3185C6;
+	}
+
+/*@media screen and (max-width: 475px) {
+    .top-text {
+	height: 3%;
+	width: 100%;
+	background: #004E8E;
+	font-family: "helvetica";
+	font-size: 10px;
+	color: #84A6C3;
+	padding: .8% 10px;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: space-around;
+	border-bottom: 1px solid #3185C6;
+	}
+
+	.main {
+	height: 200%;
+	width: 80%;
+	background: #fff;
+	padding: 3%;
+	box-sizing: border-box;
+	margin: 2% 10%;
+	box-shadow: 0px 0px 10px 5px #003B6B;
+	}
+
+	.pic1 {
+	width: 100%;
+	}
+}*/
+
+.center-align {
+	text-align: center;
+}
+
+.text-indent {
+	text-indent: 10%;
+}
+
+.main {
+	height: 200%;
+	width: 80%;
+	background: #fff;
+	padding: 29px;
+	box-sizing: border-box;
+	margin: 2% 10%;
+	box-shadow: 0px 0px 10px 5px #003B6B;
+}
+
+.row {
+	display: flex;
+	flex-direction: column;
+	max-width: 96%;
+/*	flex-flow: row wrap;*/
+}
+
+@media screen and (min-width: 900px) {
+	.row {
+		flex-direction: row;
+	}
+}
+
+.pic {
+	padding: 2%;
+	max-width: 96%
+}
+
+.middle-pic {
+	width: 100%;
+}
+
+.inner-elements {
+	padding: 2%;
+}
+
+
